@@ -246,9 +246,35 @@
     }
     .mono{font-family:var(--mono)}
     .small{font-size:12px; color:var(--muted)}
-  </style>
-</head>
 
+    .small{font-size:12px; color:var(--muted)}
+
+/* BOTÓN WHATSAPP */
+.wa-float{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  z-index: 9999;
+
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  box-shadow:
+    0 16px 30px rgba(0,0,0,.18),
+    0 0 0 6px rgba(37,211,102,.12);
+}
+
+.wa-float svg{
+  width: 28px;
+  height: 28px;
+  fill: #fff;
+}
+  
+  </style>
+</head> 
 <body>
   <div class="nav">
     <div class="nav-inner">
@@ -279,11 +305,11 @@
       <div class="card hero-main">
         <div class="kicker"><span class="dot"></span> Pro Enhanced Nutrition · Planes personalizados</div>
 
-        <h2>Entrenamiento + nutrición para ganar músculo y perder grasa sin humo.</h2>
+        <h2>Entrenamiento - Nutrición para ganar músculo y Perder grasa corporal, Mejorar tu salud metabólica y Hormonal con nutrición y Suplementación puntual, sin humo, con educación nutricional metas y objetivos realistas.</h2>
 
         <p>
           Enfoque directo: evaluación → plan individualizado → seguimiento → ajustes.
-          Entrenamiento de fuerza, aumento de masa muscular, pérdida de grasa y optimización hormonal con nutrición.
+          Entrenamiento de fuerza, aumento de masa muscular, pérdida de grasa y optimización hormonal con nutrición. Estos servicios son para ti si eres una persona responsable, comprometida con su tiempo, dispuesta a seguir pautas según sea el caso.
         </p>
 
         <div class="hero-actions">
@@ -308,7 +334,16 @@
 
         <div class="mini">
           <p class="t">Servicios principales</p>
+
+          
           <p class="v">Masa muscular · Pérdida de grasa · Salud hormonal</p>
+
+
+          <p class="v">Mejora de hábitos y relación con la comida, seguimiento en tu proceso</p>
+
+          
+          <p class="v">Uso y entrega de planes de suplementación puntual y justificada también</p>
+
         </div>
       </div>
     </div>
@@ -323,9 +358,9 @@
         <div class="card panel span-8">
           <p style="margin:0; color:var(--muted); line-height:1.7">
             Soy <strong>Raúl Vargas Zalazar</strong>, fundador de <strong>Pro Enhanced Nutrition</strong>.
-            Te acompaño con estructura, métricas y seguimiento para lograr recomposición corporal y rendimiento.
+            Te acompaño con estructura, métricas y seguimiento para lograr recomposición corporal y rendimiento, tallas, fotografías, edad y más herramientas para ayudarte a lograr tu objetivo.
             <br><br>
-            Sistema simple: evaluación → plan → seguimiento → ajustes.
+            Sistema simple: evaluación → planes de nutrición, entrenamiento → seguimiento → ajustes según tu progreso → objetivo final. y acompañandote en todo el proceso para que sientas más seguridad.
           </p>
           <div class="tagrow">
             <span class="tag">Fuerza</span>
@@ -341,12 +376,12 @@
             <p>Claridad, estructura y progreso real (sin improvisar).</p>
           </div>
           <div class="item" style="margin-top:10px">
-            <h4>Cómo medimos</h4>
-            <p>Fuerza, RPE/RIR, peso, perímetros y adherencia.</p>
+            <h4>¿Cómo medimos y evaluamos?</h4>
+            <p>Fuerza, RPE/RIR, datos como tu peso, estatura, tallas como la cintura por ejemplo, etc, y según tu avance saber que ajustes hacer en una un otra herramienta.</p>
           </div>
           <div class="item" style="margin-top:10px">
             <h4>Objetivo</h4>
-            <p>Resultados sostenibles con rendimiento y salud.</p>
+            <p>Resultados sostenibles con rendimiento y mejora de tu salud y estética.</p>
           </div>
         </div>
       </div>
@@ -355,28 +390,28 @@
     <section id="servicios">
       <div class="section-title">
         <h3><span class="mark"></span> Servicios</h3>
-        <p>Elige tu objetivo y arrancamos</p>
+        <p>Elige tu objetivo, agenda por escribibiendome un correo electrónico o mensaje por WhatsApp, hzame saber tus objetivos o lo que buscas mejorar</p>
       </div>
 
       <div class="grid">
         <div class="card panel span-4">
           <div class="item">
             <h4>Aumento de masa muscular</h4>
-            <p>Hipertrofia con progresión, técnica, recuperación y nutrición enfocada a crecer.</p>
+            <p>Hipertrofia con progresión, técnica, recuperación y nutrición enfocada a avanzar en tus objetivos más rápido.</p>
           </div>
         </div>
 
         <div class="card panel span-4">
           <div class="item">
             <h4>Pérdida de grasa corporal</h4>
-            <p>Déficit inteligente sin destruir rendimiento: adherencia, NEAT y ajustes semanales.</p>
+            <p>Déficit inteligente sin destruir rendimiento: adherencia, hábitos, salud hormonal, etc .</p>
           </div>
         </div>
 
         <div class="card panel span-4">
           <div class="item">
             <h4>Optimizar salud hormonal</h4>
-            <p>Nutrición + suplementación puntual para apoyar energía, sueño y recuperación.</p>
+            <p>Nutrición + suplementación puntual para apoyar energía, sueño y recuperación según tu objetivo.</p>
           </div>
         </div>
       </div>
@@ -444,5 +479,16 @@
       window.location.href = `mailto:Pro.Enhanced.Nutrition@gmail.com?subject=${subject}&body=${body}`;
     }
   </script>
+  
+  <a class="wa-float"
+   href="https://wa.me/5218132216529"
+   target="_blank">
+
+<svg viewBox="0 0 32 32">
+<path d="M16 .396C7.163.396 0 7.56 0 16.396c0 2.89.756 5.707 2.192 8.19L0 32l7.61-2.145a15.94 15.94 0 0 0 8.39 2.33c8.837 0 16-7.164 16-16S24.837.396 16 .396zm0 29.09a13.02 13.02 0 0 1-6.62-1.81l-.474-.28-4.52 1.27 1.21-4.41-.31-.45A13.02 13.02 0 0 1 2.98 16.4c0-7.19 5.84-13.02 13.02-13.02 7.19 0 13.02 5.83 13.02 13.02 0 7.18-5.83 13.02-13.02 13.02z"/>
+</svg>
+
+</a>
+  
 </body>
 </html>
